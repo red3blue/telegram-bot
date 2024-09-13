@@ -17,7 +17,7 @@ Este proyecto es un ejemplo sencillo de cómo crear un bot de Telegram utilizand
 
 ### **Clonar el repositorio:**
 ```bash
-git clone https://github.com/tuusuario/telegram-bot.git
+git clone git@github.com:red3blue/telegram-bot.git
 cd telegram-bot
 ```
 

@@ -7,7 +7,7 @@ dotenv.config();
 
 
 console.log("Starting bot...🚀");
-const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
+const bot = 
 console.log("Bot started!🎉");
 
 const reminderService = new ReminderService();
@@ -17,7 +17,6 @@ bot.on("message", async (ctx) => {
   const message = ctx.message.text;
 
   // aqui va tu codigo para hacer lo que quieras con el mensaje
-  await reminderService.createReminder(userId, message, 10); // 10 segundos
 
 
 
@@ -25,7 +24,7 @@ bot.on("message", async (ctx) => {
 
   // aqui va tu codigo para hacer lo que quieras con el resultado
 
-  bot.api.sendMessage(userId, "Recordatorio creado 🔮");
+  bot.api.sendMessage(userId, "Hola Mundo!");
 });
 bot.start();
 
